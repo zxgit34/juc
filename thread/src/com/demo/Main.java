@@ -2,7 +2,7 @@ package com.demo;
 
 public class Main {
     public static void main(String[] args) {
-        Thread t = new Thread(new Task());
+        Thread t = new Thread(new RunnableTask());
         t.start();
         try {
             t.join();
