@@ -15,6 +15,8 @@ public class StopDemo {
         TimeUnit.SECONDS.sleep(1);
 
         dto.print();
+
+        dto.wait();
     }
 
 }
